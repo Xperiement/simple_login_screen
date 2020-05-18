@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     outline: none;
-    color: black;
+    color: rgb(96, 104, 129);
     font-family: Product Sans;
 }
 .headtxt{
@@ -22,6 +22,9 @@ input{
     font-size: 1rem;
     position: relative;
     letter-spacing: .04rem;
+}
+.passB{
+    margin-bottom: 1.2rem;
 }
 span{
     position: relative;
@@ -49,10 +52,37 @@ span::after:active{
     color: rgb(96, 104, 129);
 
 }
+
+.loginNow{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    a{
+        border: 2px solid rgb(96, 104, 129);
+        color: rgb(96, 104, 129);
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        padding-top: .2rem;
+        padding-bottom: .15rem;
+        border-radius: 2rem;
+
+        text-transform: uppercase;
+        font-family: 'Nunito';
+        transition: color 280ms, background 280ms;
+    }
+    a:focus,
+    a:hover{
+        color: white;
+        background: rgb(96, 104, 129);
+    }
+}
+
+
 .otherIco{
     margin-right: .8rem;
-    font-size: 2.4rem;
-    color: #6b6b6b;
+    font-size: 2.2rem;
+    color: rgb(128, 134, 148);
     transition: color 280ms ease-out;
 }
 .google:focus,
@@ -68,8 +98,7 @@ span::after:active{
     color: #292929;
 }
 .others{
-    margin-top: .7rem;
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
     font-size: 1.1rem;
     color: rgb(73, 73, 73);
 }
